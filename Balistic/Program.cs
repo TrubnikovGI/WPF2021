@@ -6,7 +6,7 @@ namespace Balistic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Just cheking");
         }
     }
 }
