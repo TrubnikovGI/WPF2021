@@ -1,0 +1,13 @@
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\bin\Debug\netcoreapp3.1\Balistic.exe
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\bin\Debug\netcoreapp3.1\Balistic.deps.json
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\bin\Debug\netcoreapp3.1\Balistic.runtimeconfig.json
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\bin\Debug\netcoreapp3.1\Balistic.runtimeconfig.dev.json
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\bin\Debug\netcoreapp3.1\Balistic.dll
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\bin\Debug\netcoreapp3.1\Balistic.pdb
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\obj\Debug\netcoreapp3.1\Balistic.csprojAssemblyReference.cache
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\obj\Debug\netcoreapp3.1\Balistic.AssemblyInfoInputs.cache
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\obj\Debug\netcoreapp3.1\Balistic.AssemblyInfo.cs
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\obj\Debug\netcoreapp3.1\Balistic.csproj.CoreCompileInputs.cache
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\obj\Debug\netcoreapp3.1\Balistic.dll
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\obj\Debug\netcoreapp3.1\Balistic.pdb
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\obj\Debug\netcoreapp3.1\Balistic.genruntimeconfig.cache
