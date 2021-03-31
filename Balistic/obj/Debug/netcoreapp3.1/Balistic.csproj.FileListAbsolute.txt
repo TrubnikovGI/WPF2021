@@ -11,3 +11,6 @@ C:\Users\днс\Desktop\Координаты тела брошенного по�
 C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\obj\Debug\netcoreapp3.1\Balistic.dll
 C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\obj\Debug\netcoreapp3.1\Balistic.pdb
 C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\obj\Debug\netcoreapp3.1\Balistic.genruntimeconfig.cache
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\obj\Debug\netcoreapp3.1\Balistic.csproj.ResolveComReference.cache
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\bin\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\днс\Desktop\Координаты тела брошенного под углом\Balistic\obj\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.Excel.dll

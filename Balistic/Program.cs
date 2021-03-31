@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Balistic
 {
@@ -32,6 +33,42 @@ namespace Balistic
 
         }
 
+        public void Write_to_File()
+        {
+            string path = @"..\..\..\Flight.csv";
+            using (StreamWriter in_File = new StreamWriter(path))
+            {
+
+                in_File.Write("t:");
+                in_File.Write(';');
+                for (int i = 0; i < time; i++)
+                {
+                    in_File.Write(i);
+                    in_File.Write(';');
+                }
+
+                in_File.WriteLine(" ");
+
+                in_File.Write("x:");
+                in_File.Write(';');
+                for (int i = 0; i < time; i++)
+                {
+                    in_File.Write(abscisa[i]);
+                    in_File.Write(';');
+                }
+
+                in_File.WriteLine(" ");
+
+                in_File.Write("y:");
+                in_File.Write(';');
+                for (int i = 0; i < time; i++)
+                {
+                    in_File.Write(ordinata[i]);
+                    in_File.Write(';');
+                }
+            }
+        }
+
         public void Write_Coordinates()
         {
             Console.WriteLine("t:   x   y");
@@ -56,8 +93,8 @@ namespace Balistic
 
             Coordinates Hammer = new Coordinates(angle, vol);
 
-            Hammer.Write_Coordinates();
-            
+            Hammer.Write_to_File();
+
         }
     }
 }
