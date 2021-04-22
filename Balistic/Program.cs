@@ -108,10 +108,10 @@ namespace Balistic
                 Console.WriteLine("Ошибка ввода данных, координаты полёта тела будут найденный неверно");
             }
 
-            Coordinates Hammer = new Coordinates(angle, vol, mass);
+            Coordinates Obj = new Coordinates(angle, vol, mass);
 
-            Hammer.Write_to_File();
-            Hammer.Write_to_Console();
+            Obj.Write_to_File();
+            Obj.Write_to_Console();
 
         }
     }
