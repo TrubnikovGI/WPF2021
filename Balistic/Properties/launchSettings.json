@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Balistic": {
+      "commandName": "Project",
+      "commandLineArgs": "Flight.csv"
+    }
+  }
+}

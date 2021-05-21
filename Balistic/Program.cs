@@ -39,9 +39,10 @@ namespace Balistic
             while (y > 0) ;
         }
 
-        public void Write_to_File()
+        public void Write_to_File(string path = @"..\..\Flight.csv")
         {
-            string path = @"..\..\..\Flight.csv";
+
+              
             using (StreamWriter in_File = new StreamWriter(path))
             {
                 in_File.WriteLine("angle: {0}; speed: {1}; mass: {2}", (ang * 180 / Math.PI), vol, mass);
@@ -97,6 +98,8 @@ namespace Balistic
     {
         static void Main(string[] args)
         {
+            for (int i = 0; i < args.Length; i++)
+                Console.WriteLine(args[i]);
             double angle, vol, mass;
             angle = Convert.ToDouble(Console.ReadLine());
             vol = Convert.ToDouble(Console.ReadLine());
@@ -109,8 +112,11 @@ namespace Balistic
             }
 
             Coordinates Obj = new Coordinates(angle, vol, mass);
-
-            Obj.Write_to_File();
+            //Console.WriteLine("enter file name");
+            if (args.Length == 0)
+                Obj.Write_to_File();
+            else
+                Obj.Write_to_File(args[0]);
             Obj.Write_to_Console();
 
         }

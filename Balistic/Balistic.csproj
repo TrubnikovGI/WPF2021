@@ -14,12 +14,6 @@
       <Lcid>0</Lcid>
       <Isolated>false</Isolated>
     </COMReference>
-    <COMReference Include="{cd2194aa-11be-4efd-97a6-74c39c6508ff}">
-      <WrapperTool>tlbimp</WrapperTool>
-      <VersionMinor>0</VersionMinor>
-      <VersionMajor>1</VersionMajor>
-      <Guid>cd2194aa-11be-4efd-97a6-74c39c6508ff</Guid>
-    </COMReference>
   </ItemGroup>
 
 </Project>

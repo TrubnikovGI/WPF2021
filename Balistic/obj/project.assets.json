@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\днс\\Desktop\\Координаты тела брошенного под углом\\Balistic\\Balistic.csproj",
+      "projectUniqueName": "C:\\Users\\днс\\Desktop\\Почти курсач\\Balistic\\Balistic.csproj",
       "projectName": "Balistic",
-      "projectPath": "C:\\Users\\днс\\Desktop\\Координаты тела брошенного под углом\\Balistic\\Balistic.csproj",
+      "projectPath": "C:\\Users\\днс\\Desktop\\Почти курсач\\Balistic\\Balistic.csproj",
       "packagesPath": "C:\\Users\\днс\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\днс\\Desktop\\Координаты тела брошенного под углом\\Balistic\\obj\\",
+      "outputPath": "C:\\Users\\днс\\Desktop\\Почти курсач\\Balistic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\днс\\AppData\\Roaming\\NuGet\\NuGet.Config",

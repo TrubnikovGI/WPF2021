@@ -1,0 +1,42 @@
+﻿<Window x:Class="Balistic_FrontEnd.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Balistic_FrontEnd"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="29,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="15" RenderTransformOrigin="0.485,0.656" Width="140">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Language="ru-ru" Text="Введите начальный угол"/><LineBreak/><Run Language="ru-ru"/></TextBlock>
+        <TextBox x:Name="Ang_val" HorizontalAlignment="Left" Margin="29,63,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="29,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="15" RenderTransformOrigin="0.485,0.656" Width="174">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Введите начальн"/><Run Language="ru-ru" Text="ую "/><Run Text=" "/><Run Language="ru-ru" Text="скорость"/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="Vol_val" HorizontalAlignment="Left" Margin="29,124,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="29,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="15" RenderTransformOrigin="0.485,0.656" Width="140">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Введите "/><Run Language="ru-ru" Text="массу тела"/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="Mas_val" HorizontalAlignment="Left" Margin="29,199,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Рассчитать данные" HorizontalAlignment="Left" Margin="76,10,0,0" VerticalAlignment="Top" Click="Button_Click" Width="127"/>
+    </Grid>
+</Window>
